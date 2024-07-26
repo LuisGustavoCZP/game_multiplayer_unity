@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="side_menu" style="flex-grow: 0; background-color: rgb(255, 255, 255); border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px; margin-top: 4px; margin-right: 4px; margin-bottom: 4px; margin-left: 4px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; flex-shrink: 0; width: 200px; display: flex;">
+        <ui:VisualElement name="navigation_panel" style="flex-grow: 1;">
+            <ui:Button text="Perfil" parse-escape-sequences="true" display-tooltip-when-elided="true" name="profile_button" style="flex-shrink: 1; flex-grow: 0;" />
+            <ui:Button text="Heroes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="heroes_button" style="flex-shrink: 1;" />
+            <ui:Button text="Inventory" parse-escape-sequences="true" display-tooltip-when-elided="true" name="inventory_button" style="flex-shrink: 1;" />
+            <ui:Button text="Behaviours" parse-escape-sequences="true" display-tooltip-when-elided="true" name="behaviours_button" />
+            <ui:Button text="Missions" parse-escape-sequences="true" display-tooltip-when-elided="true" name="missions_button" style="flex-shrink: 1; flex-grow: 0;" />
+            <ui:Button text="Skimish" parse-escape-sequences="true" display-tooltip-when-elided="true" name="skimish_button" style="flex-shrink: 1; flex-grow: 0;" />
+        </ui:VisualElement>
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="logout_button" style="flex-shrink: 1; flex-grow: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

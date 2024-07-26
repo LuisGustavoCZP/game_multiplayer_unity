@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="side_menu" src="project://database/Assets/UI/side_menu.uxml?fileID=9197481963319205126&amp;guid=2594a91228ac1b247adff3835e24c693&amp;type=3#side_menu" />
+    <ui:Template name="main_container" src="project://database/Assets/UI/main_container.uxml?fileID=9197481963319205126&amp;guid=8327e960129e84442b7c912e79ae5340&amp;type=3#main_container" />
+    <ui:VisualElement style="flex-grow: 1; overflow: hidden; flex-direction: row; background-color: rgb(0, 0, 0); padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+        <ui:Instance template="side_menu" name="side_menu" style="flex-direction: row;" />
+        <ui:Instance template="main_container" name="main_container" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
